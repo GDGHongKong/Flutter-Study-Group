@@ -10,8 +10,9 @@ assignees: ''
 <!-- 
 Our treatment to the talk submission:
 - The talk submission process is completely transparent. The discussions, comment, suggestions would be posted in this issues transparently.
-- If you'd like to make an inquiry privately, please contact the event organiser through organizer@gdghk.org or Flutter Hong Kong Telegram group https://t.me/FlutterHK 
+- If you'd like to make an inquiry privately, please contact the event organiser through organizer@gdghk.org . 
 - We wouldn't reject any submission if the content meet public sector ethics.
+- Each study group event may have max 4 lightning talks.
 - The more 👍 the higher priority to be scheduled if there are multiple talks at the same time.
 
 Actions:
