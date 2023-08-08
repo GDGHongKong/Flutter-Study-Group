@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "553e7007f9c42173d6d205b65397b9845f6ebdb5296c6183f54e6a2e5c9e26f2"
+build_start_time: [1691489694, 241351127]
+build_end_time: [1691489694, 263412952]
+inputs:
+  ? "/Users/emmawong/projects/Flutter-Study-Group/code_challenge/mini_mario/mini_mario_00_start/macos/Flutter/GeneratedPluginRegistrant.swift"
+  : !private [1691489684, 14459133]
+  "/Users/emmawong/projects/Flutter-Study-Group/code_challenge/mini_mario/mini_mario_00_start/macos/Runner/AppDelegate.swift": !private [1646278331, 0]
+  "/Users/emmawong/projects/Flutter-Study-Group/code_challenge/mini_mario/mini_mario_00_start/macos/Runner/MainFlutterWindow.swift": !private [1684991674, 28707504]
