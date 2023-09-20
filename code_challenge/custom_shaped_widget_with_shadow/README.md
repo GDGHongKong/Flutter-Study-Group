@@ -1,6 +1,9 @@
 # custom_shaped_widget_with_shadow
 
-A new Flutter project.
+Without using SVG/PNG, use CustomPaint to draw coupon shaped widget with shadow.
+
+![](coupon.jpg)
+![](coupon_shape_by_custom_paint.png)
 
 ## Getting Started
 
