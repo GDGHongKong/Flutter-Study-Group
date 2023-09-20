@@ -5,11 +5,11 @@ class Mario extends StatelessWidget {
   const Mario({
     super.key,
     required this.direction,
-    // TODO{movementImage}: add required param this.isJumping, this.isRunning, this.isIdle
+    // TODO(movementImage): add required param this.isJumping, this.isRunning, this.isIdle
   });
 
   final Direction direction;
-  // TODO{movementImage}: add bool field isJumping, isRunning, isIdle
+  // TODO(movementImage): add bool field isJumping, isRunning, isIdle
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class Mario extends StatelessWidget {
 
     late final String imgPath;
     final leftOrRight = direction == Direction.left ? 'l' : 'r';
-    // TODO{movementImage}: assign differnt path to imgPath according to isJumping, isIdle, isRunning
+    // TODO(movementImage): assign differnt path to imgPath according to isJumping, isIdle, isRunning
     //  For Jumping true
     //  'assets/images/mario_jump_l.png'
     //  'assets/images/mario_jump_r.png'

@@ -30,7 +30,7 @@ class _GamePageState extends State<GamePage> {
   Direction direction = Direction.right;
   bool isJumping = false;
   bool isIdle = true;
-  // TODO{movementImage}: add bool isRunning which is used to indicate the Mario widget to show run1 image and run2 iamge
+  // TODO(movementImage): add bool isRunning which is used to indicate the Mario widget to show run1 image and run2 iamge
   // TODO(mushroom): add a bool isBigMario to record if Mario turns bigger after ate mushroom
   // TODO(brick): you may need a bool isMarioAboveBrick
   // TODO(keepRunning): add "Timer? runningTimer;""
@@ -100,7 +100,7 @@ class _GamePageState extends State<GamePage> {
       // TODO(jumpAndMove): set the direction, isIdle, marioX inside setState
       //  Tips: marioX -= 0.02
 
-      // TODO{movementImage}: update bool isRunning
+      // TODO(movementImage): update bool isRunning
       //  which is used to indicate the Mario widget to show run1 image and run2 iamge
       //  Tops: "isRunning = !isRunning;"
     });
@@ -119,7 +119,7 @@ class _GamePageState extends State<GamePage> {
       // TODO(jumpAndMove): set the direction, isIdle, marioX inside setState
       //  Tips: marioX += 0.02
 
-      // TODO{movementImage}: update bool isRunning
+      // TODO(movementImage): update bool isRunning
       //  which is used to indicate the Mario widget to show run1 image and run2 iamge
       //  Tops: "isRunning = !isRunning;"
     });
@@ -143,7 +143,7 @@ class _GamePageState extends State<GamePage> {
                     duration: const Duration(milliseconds: 50),
                     child: Mario(
                       direction: direction,
-                      // TODO{movementImage}: pass isJumping, isRunning, isIdle into Mario widget
+                      // TODO(movementImage): pass isJumping, isRunning, isIdle into Mario widget
                       // TODO(mushroom): pass isBigMario to Mario and change to bigger size in Mario widget
                     ),
                   ),
